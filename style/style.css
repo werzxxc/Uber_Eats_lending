@@ -1,0 +1,60 @@
+*{
+    font-family: Roboto Light sans-serif!important;
+}
+@media screen and (max-width: 767px){
+    #basket{
+        display: none;
+    }
+    .signature{
+    flex-direction: column;
+    }
+}
+.site-header{
+    background: #FFFFFF;
+}
+.btn-outline-secondary{
+    border-radius: 0;
+    font-weight: 600;
+    color: #1D1D1D;
+    border: 1px solid #E0E0E0;
+}
+.basket{
+    border: 0;
+}
+.form-control{
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+}
+a{
+    color: #1D1D1D;
+}
+a:hover{
+    text-decoration: none;
+}
+.bg-dark{
+    background-color: #262626;
+}
+hr{
+    border: 1px solid #FFFFFF;
+    opacity: 0.4;
+}
+.btn-dark{
+    background-color: #3B3B3B;
+    border-color: #3B3B3B;
+    color: #FFFFFF;
+}
+.card-footer{
+    color: #FFFFFF;
+}
+footer a{
+    color: #FFFFFF;
+}
+.btn-top{
+    position: fixed;
+    display: block;
+    height: 5em;
+    width: 5em;
+    right: 1.5rem;
+    bottom: 2rem;
+    background-color: #59BD5A;
+}
